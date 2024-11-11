@@ -7,9 +7,9 @@ void add_event(){
     scanf("%s",&event_name[count]);
     printf("Enter the date of event(DD/MM/YYYY): ");
     scanf("%s",&event_date[count]);
-    printf("Enter the start time of event(HH/MM AM/PM): ");
+    printf("Enter the start time of event(HH/MM/AM/PM): ");
     scanf("%s",&event_stime[count]);
-    printf("Enter the end time of event(HH/MM AM/PM): ");
+    printf("Enter the end time of event(HH/MM/AM/PM): ");
     scanf("%S",&event_ctime[count]);
     printf("Enter the location of event: ");
     scanf("%s",event_location[count]);
